@@ -7,9 +7,9 @@ public class SHaredPage {
 	
 	private WebDriver driver;
 
-	private By wishList = By.tagName("a");
+	private By wishList_DIlina = By.tagName("a");
 	private By sliderSections = By.xpath("//div[@class='carousel slide']");
-	private By featuredProducts = By.xpath("//*[text()='Featured']/..//div[@class='product-thumb']");
+	private By featuredProducts_DIlina = By.xpath("//*[text()='Featured']/..//div[@class='product-thumb']");
 	
 	
 	//2. constructor (that accepts WebDriver)
@@ -20,8 +20,9 @@ public class SHaredPage {
 	/**
 	 * click on wishlist
 	 */
-	public void clickOnEle() {
-		driver.findElement(wishList).click();
+	public void clickOnEle_Dilina() {
+		driver.findElement(wishList_DIlina).click();
+		System.out.println("Dilina's code");
 	}
 	
 }
