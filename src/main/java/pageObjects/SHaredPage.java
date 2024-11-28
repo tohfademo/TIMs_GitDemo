@@ -25,8 +25,9 @@ public class SHaredPage {
 		System.out.println("Dilina's code");
 	}
 	
-	public void add() {
-		System.out.println("Adding two numbers");
+
+	public void add(int a, int b) {
+	System.out.println("Adding two numbers");
+		System.out.println( a + " & " + b);
 	}
-	
 }
